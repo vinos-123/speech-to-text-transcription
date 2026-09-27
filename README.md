@@ -1,8 +1,13 @@
-?# Speech-to-Text Transcription Tool
+# Speech-to-Text Transcription Tool
 
 A Python desktop application that converts speech from WAV audio files into text using SpeechRecognition and Google Speech Recognition API.
 
-## Features
+## 📸 Application Screenshot
+
+![Speech-to-Text Transcription Tool](screenshots/app-interface.png)
+
+## ✨ Features
+
 - Select a WAV audio file
 - Convert speech into text
 - Display the transcription
@@ -10,35 +15,16 @@ A Python desktop application that converts speech from WAV audio files into text
 - Clear the transcription
 - Tkinter graphical interface
 
-## Technologies Used
+## 🛠️ Technologies Used
+
 - Python
 - Tkinter
 - SpeechRecognition
 - Google Speech Recognition API
 
-## Installation
+## ⚙️ Installation
 
-    python -m venv venv
-    .\venv\Scripts\Activate.ps1
-    pip install -r requirements.txt
+### 1. Create a virtual environment
 
-## Run the Application
-
-    python app.py
-
-## How to Use
-1. Open the application.
-2. Click Select Audio File.
-3. Select a WAV audio file.
-4. Wait for transcription.
-5. Review the generated text.
-6. Click Save Transcription.
-
-## Note
-An internet connection is required for Google Speech Recognition.
-
-## Author
-Vinos
-## Application Screenshot
-
-![Speech-to-Text Transcription Tool](screenshots/app-interface.png)
+```powershell
+python -m venv venv
