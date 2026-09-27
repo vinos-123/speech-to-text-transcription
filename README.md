@@ -39,3 +39,6 @@ An internet connection is required for Google Speech Recognition.
 
 ## Author
 Vinos
+## Application Screenshot
+
+![Speech-to-Text Transcription Tool](screenshots/app-interface.png)
